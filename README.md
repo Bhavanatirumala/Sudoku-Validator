@@ -2,12 +2,30 @@
 
 A Python-based Sudoku validator with a graphical user interface (GUI) that validates 9x9 Sudoku boards, including support for custom zones. The validator checks standard Sudoku rules (rows, columns, 3x3 boxes) and any user-defined zones for uniqueness of digits 1-9.
 
-## 🚀 Quick Start
-To validate a Sudoku board, simply run:
-```bash
-python sudoku_gui.py
-```
-This will open the GUI where you can enter your board and get immediate validation results.
+## 🎯 Getting Started
+
+### Prerequisites
+- Python 3.6 or higher installed on your computer
+- Basic understanding of Sudoku rules
+
+### Running the Application
+1. **Open the GUI**:
+   ```bash
+   python sudoku_gui.py
+   ```
+   This will launch the main application window.
+
+2. **Enter Your Sudoku Board**:
+   - Click on any cell in the 9x9 grid
+   - Type numbers 1-9 for filled cells
+   - Use 0 or leave blank for empty cells
+   - The grid has visual separators for 3x3 boxes
+
+3. **Validate Your Board**:
+   - Click the "Validate" button to check if your board is valid
+   - Results will appear below the grid:
+     - 🟢 Green text: Valid board
+     - 🔴 Red text: Invalid board with error message
 
 ## ✨ Features
 - 🎯 Interactive 9x9 grid interface
