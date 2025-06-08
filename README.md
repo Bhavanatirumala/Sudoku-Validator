@@ -1,30 +1,30 @@
-# Sudoku Validator with Custom Zones
+# 🎮 Sudoku Validator with Custom Zones
 
 A Python-based Sudoku validator with a graphical user interface (GUI) that validates 9x9 Sudoku boards, including support for custom zones. The validator checks standard Sudoku rules (rows, columns, 3x3 boxes) and any user-defined zones for uniqueness of digits 1-9.
 
-## Quick Start
+## 🚀 Quick Start
 To validate a Sudoku board, simply run:
 ```bash
 python sudoku_gui.py
 ```
 This will open the GUI where you can enter your board and get immediate validation results.
 
-## Features
-- Interactive 9x9 grid interface
-- Support for standard Sudoku rules
-- Custom zone validation (e.g., diagonals, Windoku)
-- Clear visual feedback for validation results
-- Easy-to-use custom zone input
-- Support for both filled and partially filled boards (0 for empty cells)
+## ✨ Features
+- 🎯 Interactive 9x9 grid interface
+- ✅ Support for standard Sudoku rules
+- 🎨 Custom zone validation (e.g., diagonals, Windoku)
+- 🎭 Clear visual feedback for validation results
+- 🎪 Easy-to-use custom zone input
+- 🔄 Support for both filled and partially filled boards (0 for empty cells)
 
-## Setup
+## ⚙️ Setup
 1. Ensure you have Python 3.6+ installed
 2. Clone or download this repository
 3. No additional dependencies required (uses only Python standard library and Tkinter)
 
-## Using the GUI (Main Interface)
+## 🖥️ Using the GUI (Main Interface)
 
-### Basic Usage
+### 📝 Basic Usage
 1. **Enter Numbers**:
    - Type numbers 1-9 in the cells
    - Use 0 or leave blank for empty cells
@@ -33,8 +33,8 @@ This will open the GUI where you can enter your board and get immediate validati
 2. **Validate Board**:
    - Click "Validate" to check if the board is valid
    - Results appear below the grid:
-     - Green text: Valid board
-     - Red text: Invalid board with error message
+     - 🟢 Green text: Valid board
+     - 🔴 Red text: Invalid board with error message
 
 3. **Custom Zones**:
    - Click "Custom Zones" button
@@ -45,7 +45,7 @@ This will open the GUI where you can enter your board and get immediate validati
 4. **Clear Board**:
    - Click "Clear" to reset the board and custom zones
 
-### Example Custom Zones
+### 📊 Example Custom Zones
 
 #### Diagonal Sudoku
 ```
@@ -61,14 +61,14 @@ This will open the GUI where you can enter your board and get immediate validati
 5,5 5,6 5,7 6,5 6,6 6,7 7,5 7,6 7,7
 ```
 
-## Test Cases
+## 🧪 Test Cases
 The `gui_test_cases.txt` file contains various test cases you can use:
-- Valid standard Sudoku
-- Invalid row/column/box
-- Valid/invalid diagonal Sudoku
-- Partially filled boards
-- Custom zone examples
-- Windoku examples
+- ✅ Valid standard Sudoku
+- ❌ Invalid row/column/box
+- ✅ Valid/invalid diagonal Sudoku
+- 📝 Partially filled boards
+- 🎨 Custom zone examples
+- 🌪️ Windoku examples
 
 To use a test case:
 1. Open `gui_test_cases.txt`
@@ -76,18 +76,18 @@ To use a test case:
 3. Paste into the GUI grid
 4. If the test case has custom zones, add them using the "Custom Zones" button
 
-## Project Structure
-- `sudoku_gui.py` — Main GUI application (run this to validate boards)
-- `sudoku_validator.py` — Core validation logic (used by GUI)
-- `gui_test_cases.txt` — Collection of test cases for the GUI
-- `test_sudoku_validator.py` — Unit tests for developers
-- `README.md` — This documentation
+## 📁 Project Structure
+- `sudoku_gui.py` — 🖥️ Main GUI application (run this to validate boards)
+- `sudoku_validator.py` — 🔍 Core validation logic (used by GUI)
+- `gui_test_cases.txt` — 🧪 Collection of test cases for the GUI
+- `test_sudoku_validator.py` — ⚡ Unit tests for developers
+- `README.md` — 📚 This documentation
 
-## For Developers
+## 👨‍💻 For Developers
 If you're interested in the validation logic or want to run the test suite:
 ```bash
 python -m unittest test_sudoku_validator.py
 ```
 
-## License
+## 📄 License
 MIT 
